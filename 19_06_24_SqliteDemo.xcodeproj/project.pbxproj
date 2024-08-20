@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681609682C745C520056A68F /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681609672C745C520056A68F /* Employee.swift */; };
 		683537EF2C7312E1004F0075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683537EE2C7312E1004F0075 /* AppDelegate.swift */; };
 		683537F12C7312E1004F0075 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683537F02C7312E1004F0075 /* SceneDelegate.swift */; };
 		683537F32C7312E1004F0075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683537F22C7312E1004F0075 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		681609672C745C520056A68F /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		683537EB2C7312E1004F0075 /* 19_06_24_SqliteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 19_06_24_SqliteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683537EE2C7312E1004F0075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		683537F02C7312E1004F0075 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				683537F92C7312E2004F0075 /* LaunchScreen.storyboard */,
 				683537FC2C7312E2004F0075 /* Info.plist */,
 				683538022C731507004F0075 /* DBHelper.swift */,
+				681609672C745C520056A68F /* Employee.swift */,
 			);
 			path = 19_06_24_SqliteDemo;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				683537F32C7312E1004F0075 /* ViewController.swift in Sources */,
 				683537EF2C7312E1004F0075 /* AppDelegate.swift in Sources */,
 				683537F12C7312E1004F0075 /* SceneDelegate.swift in Sources */,
+				681609682C745C520056A68F /* Employee.swift in Sources */,
 				683538032C731507004F0075 /* DBHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

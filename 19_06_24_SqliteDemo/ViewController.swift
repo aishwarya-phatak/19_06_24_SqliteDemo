@@ -13,6 +13,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
       
         var db = DBHelper.shared
+//        db.insertEmployeeDataIntoTable(empId: 106, empName: "Jaidepp")
+//        db.insertEmployeeDataIntoTable(empId: 107, empName: "Shreya")
+//        db.insertEmployeeDataIntoTable(empId: 108, empName: "Saqib")
+//        db.insertEmployeeDataIntoTable(empId: 109, empName: "Bhakti")
+//        db.insertEmployeeDataIntoTable(empId: 110, empName: "Megha")
+//        
+        for eachEmployee in db.retriveEmployeeRecords(){
+            print("\(eachEmployee.empId) -- \(eachEmployee.empName)")
+        }
         
+        db.deleteEmployeeDataFromTable(empId: 110)
+        
+        for eachEmployee in db.retriveEmployeeRecords(){
+            print("\(eachEmployee.empId) -- \(eachEmployee.empName)")
+        }
     }
 }

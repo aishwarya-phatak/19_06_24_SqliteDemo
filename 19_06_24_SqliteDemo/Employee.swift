@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct Employee{
+    var empId : Int
+    var empName : String
+}
